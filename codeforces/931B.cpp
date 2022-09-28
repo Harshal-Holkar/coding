@@ -32,9 +32,9 @@ void solve(){
 int main()
 {
      int t=1;
-     freopen("i.txt", "r", stdin);
-     freopen("o.txt", "w", stdout);
-     cin >> t;
+    //  freopen("i.txt", "r", stdin);
+    //  freopen("o.txt", "w", stdout);
+    //  cin >> t;
      while(t--){
      solve();
      }
