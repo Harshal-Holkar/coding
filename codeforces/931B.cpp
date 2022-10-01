@@ -11,7 +11,7 @@ int dfs(int i){
     for(auto j : vect[i]){
         children += dfs(j);
     }
-    if(children != 3) flag = 0;
+    if(children < 3) flag = 0;
     return 0;
 }
 
